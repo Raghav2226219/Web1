@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+:root{
+    --main-bg-color:  rgb(10, 229, 189);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    border: 5px groove #143543;
+    border-radius: 10px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 120px;
+    padding: 0 30px;
+}
+
+nav ul{
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 25px;
+}
+
+nav ul li a{
+    color: rgb(19, 35, 35);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(91, 129, 150);
+    font-weight: bold;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 30px;
+    border-radius: 5px;
+    margin: 0 10px 0 120px;
+    padding: 0 10px;
+}
+
+.search button{
+    font-family: 'Shantell Sans', cursive;
+}
+
+.slider{
+    margin: auto;
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.card{
+    max-width: 90vw;
+    margin: auto;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card h2{
+    justify-content: center;
+    font-family: 'Mynerve', cursive;
+    padding: 0 600px;
+}
+
+.container{
+    min-height: calc(100vh - 55px - 12vh);
+    align-items: center;
+}
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: black;
+    border: 5px groove #143543;
+    border-radius: 10px;
+    font-family: 'Shantell Sans', cursive;
+}
